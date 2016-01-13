@@ -1,0 +1,14 @@
+.color-svg {
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  fill: black;
+}
+
+.color-svg:hover {
+  fill: #c69;
+}
+
+.color-svg:active {
+  color: black;
+}

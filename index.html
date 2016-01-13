@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link href="main.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <h1>SVG Sprite with color</h1>
+    <p>More info: <a href="https://github.com/jesstelford/color-svg-sprite">https://github.com/jesstelford/color-svg-sprite</a></p>
+
+    <svg class="color-svg">
+      <use xlink:href="sprite.svg#pencil"></use>
+    </svg>
+
+    <svg class="color-svg">
+      <use xlink:href="sprite.svg#camera"></use>
+    </svg>
+
+    <script src="svg4everybody-2.0.0.min.js"></script>
+    <script>svg4everybody();</script>
+  </body>
+</html>

@@ -7,15 +7,15 @@ A technique for coloring external `.svg` files using external `.css` files.
 Traditionally, the only way to style an SVG was either inline `<svg>` tag, or
 inline css (inside a `.svg` file). There is now a new way
 
-| **CSS Interactions (e.g. `:hover`)** | **CSS Animations** | **SVG Animations (SMIL)**
----- | ---- | ---- | ----
-`<img>` | No | Yes only if inside `<svg>` | Yes
-CSS background image | No | Yes only if inside `<svg>` | Yes
-`<object>` | Yes only if inside `<svg>` | Yes only if inside `<svg>` | Yes
-`<iframe>` | Yes only if inside `<svg>` | Yes only if inside `<svg>` | Yes
-`<embed>` | Yes only if inside `<svg>` | Yes only if inside `<svg>` | Yes
-`<svg>` (inline) | Yes | Yes | Yes
-**`<svg><use xlink:href="sprite.svg"></use></svg>`** | **Yes** | **Yes** | ?
+|| **CSS Interactions (e.g. `:hover`)** | **CSS Animations** | **SVG Animations (SMIL)** |
+| ---- | ---- | ---- | ---- |
+| `<img>` | No | Yes only if inside `<svg>` | Yes |
+| CSS background image | No | Yes only if inside `<svg>` | Yes |
+| `<object>` | Yes only if inside `<svg>` | Yes only if inside `<svg>` | Yes |
+| `<iframe>` | Yes only if inside `<svg>` | Yes only if inside `<svg>` | Yes |
+| `<embed>` | Yes only if inside `<svg>` | Yes only if inside `<svg>` | Yes |
+| `<svg>` (inline) | Yes | Yes | Yes |
+| **`<svg><use xlink:href="sprite.svg"></use></svg>`** | **Yes** | **Yes** | ? |
 
 The last way is supported by all browsers (including IE + Edge with a [tiny
 shim](https://github.com/jonathantneal/svg4everybody)). Read on for more!

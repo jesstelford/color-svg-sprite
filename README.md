@@ -5,7 +5,9 @@ A technique for coloring external `.svg` files using external `.css` files.
 ## Why?
 
 Traditionally, the only way to style an SVG was either inline `<svg>` tag, or
-inline css (inside a `.svg` file). There is now a new way
+inline css (inside a `.svg` file).
+
+There is now a new way
 
 method | **CSS Interactions (e.g. `:hover`)** | **CSS Animations** | **SVG Animations (SMIL)**
 ---- | ---- | ---- | ----
